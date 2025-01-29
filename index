@@ -3,57 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Смс Номера и Виртуальные Номера</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>СМС и Виртуальные Номера</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f6f9;
+            color: #333;
+        }
+        header {
+            background-color: #2d3a47;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+        .main-content {
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .main-content h2 {
+            font-size: 1.8em;
+            color: #2d3a47;
+            margin-bottom: 20px;
+        }
+        .main-content p {
+            font-size: 1.1em;
+            line-height: 1.6;
+            color: #555;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        footer {
+            background-color: #2d3a47;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
+
     <header>
-        <div class="container">
-            <h1>Смс Номера и Виртуальные Номера</h1>
-            <nav>
-                <ul>
-                    <li><a href="#">Главная</a></li>
-                    <li><a href="#">Услуги</a></li>
-                    <li><a href="#">Цены</a></li>
-                    <li><a href="#">Контакты</a></li>
-                </ul>
-            </nav>
-        </div>
+        <h1>СМС и Виртуальные Номера</h1>
+        <p>Услуги по аренде номеров для регистрации и безопасности</p>
     </header>
 
-    <section class="intro">
-        <div class="container">
-            <h2>Ваши личные виртуальные номера для смс</h2>
-            <p>Используйте наши виртуальные номера для регистрации, безопасности и анонимности.</p>
-        </div>
-    </section>
+    <div class="main-content">
+        <h2>Что такое виртуальные номера?</h2>
+        <p>
+            Виртуальные номера — это номера телефонов, которые можно использовать для различных целей, таких как регистрация на сайтах, подтверждение учетных записей и повышения конфиденциальности. Эти номера не привязаны к конкретному устройству, и их можно использовать для получения СМС-сообщений без необходимости иметь физический телефон.
+        </p>
 
-    <section class="features">
-        <div class="container">
-            <h2>Наши Услуги</h2>
-            <div class="feature-item">
-                <h3>Анонимность</h3>
-                <p>Получайте SMS без раскрытия личных данных.</p>
-            </div>
-            <div class="feature-item">
-                <h3>Безопасность</h3>
-                <p>Ваши сообщения защищены от постороннего доступа.</p>
-            </div>
-            <div class="feature-item">
-                <h3>Удобство</h3>
-                <p>Управляйте номерами онлайн через наш интерфейс.</p>
-            </div>
-        </div>
-    </section>
+        <h2>Как это работает?</h2>
+        <p>
+            Процесс получения виртуального номера прост и интуитивно понятен. Вы выбираете номер, подтверждаете его через сайт или приложение и начинаете получать СМС-сообщения. Такой сервис обеспечивает анонимность и безопасность вашей личной информации.
+        </p>
+    </div>
 
     <footer>
-        <div class="container">
-            <p>&copy; 2025 Все права защищены</p>
-            <ul>
-                <li><a href="#">Политика конфиденциальности</a></li>
-                <li><a href="#">Условия использования</a></li>
-            </ul>
-        </div>
+        <p>&copy; 2025 Все права защищены. Все номера используются в соответствии с правилами.</p>
     </footer>
+
 </body>
 </html>
