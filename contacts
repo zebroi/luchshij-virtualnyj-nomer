@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Смс Номера и Виртуальные Номера</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Смс Номера и Виртуальные Номера</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="#">Услуги</a></li>
+                    <li><a href="#">Цены</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="intro">
+        <div class="container">
+            <h2>Ваши личные виртуальные номера для смс</h2>
+            <p>Используйте наши виртуальные номера для регистрации, безопасности и анонимности.</p>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="container">
+            <h2>Наши Услуги</h2>
+            <div class="feature-item">
+                <h3>Анонимность</h3>
+                <p>Получайте SMS без раскрытия личных данных.</p>
+            </div>
+            <div class="feature-item">
+                <h3>Безопасность</h3>
+                <p>Ваши сообщения защищены от постороннего доступа.</p>
+            </div>
+            <div class="feature-item">
+                <h3>Удобство</h3>
+                <p>Управляйте номерами онлайн через наш интерфейс.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact">
+        <div class="container">
+            <h2>Контакты</h2>
+            <p>Если у вас есть вопросы, оставьте сообщение, и мы с вами свяжемся.</p>
+
+            <form action="#" method="post" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Ваше имя:</label>
+                    <input type="text" id="name" name="name" required placeholder="Введите ваше имя">
+                </div>
+                <div class="form-group">
+                    <label for="email">Ваш email:</label>
+                    <input type="email" id="email" name="email" required placeholder="Введите ваш email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Сообщение:</label>
+                    <textarea id="message" name="message" rows="5" required placeholder="Введите ваше сообщение"></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Отправить</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Все права защищены</p>
+            <ul>
+                <li><a href="#">Политика конфиденциальности</a></li>
+                <li><a href="#">Условия использования</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
